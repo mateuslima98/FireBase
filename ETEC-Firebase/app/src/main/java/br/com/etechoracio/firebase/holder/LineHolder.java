@@ -10,6 +10,13 @@ import android.widget.TextView;
 import br.com.etechoracio.firebase.R;
 
 public class LineHolder extends RecyclerView.ViewHolder {
+    public TextView getViewNome() {
+        return viewNome;
+    }
+
+    public ImageButton getImgDelete() {
+        return imgDelete;
+    }
 
     private TextView viewNome;
     private ImageButton imgDelete;

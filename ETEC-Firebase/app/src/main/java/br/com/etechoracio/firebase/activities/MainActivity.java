@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import br.com.etechoracio.firebase.ListagemActivity;
 import br.com.etechoracio.firebase.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if (id == R.id.action_list) {
+            startActivity(new Intent(this, ListagemActivity.class));
             return true;
         }
 
